@@ -1163,7 +1163,7 @@ body {
 .numbers__item-num {
   font-family: "Bebas Neue";
   font-weight: 400;
-  font-size: 15.6rem;
+  font-size: 2.6rem;
   line-height: 100%;
   color: #FFE49D;
   padding-left: 6.3rem;
@@ -1179,11 +1179,174 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   max-width: 23.5rem;
-  position: absolute;
-  top: 2rem;
-  background: rgba(9, 24, 40, 0.6);
+  background: rgba(255, 255, 255, 0);
 }
 
 .numbers__item-two {
   padding-top: 9.6rem;
+}
+
+/*------------------------------------------------------------------*/
+.section__advantages-container {
+  max-width: 130rem;
+  padding: 10rem 1.5rem;
+  margin: 0 auto;
+}
+
+.section__advantages-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+  margin-top: 8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__item-icon {
+  width: 9.2rem;
+  height: 9.2rem;
+}
+
+.advantages__item-text {
+  font-family: "GothamProBold";
+  font-size: 2.2rem;
+  line-height: 117%;
+}
+
+.section__advantages-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  max-width: 32.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.section__advantages-item2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  font-family: "GothamProBold";
+  max-width: 32.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.section__advantages-item3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  font-family: "GothamProBold";
+  max-width: 32.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .section__advantages-container {
+    padding: 6rem 1.5rem;
+  }
+  .section__advantages-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 5rem;
+    row-gap: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .advantages__item-icon {
+    width: 8.2rem;
+    height: 8.2rem;
+  }
+  .advantages__item-text {
+    font-family: "GothamProBold";
+    font-size: 1.8rem;
+    line-height: 117%;
+  }
+  .section__advantages-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
+  }
+  .section__advantages-item2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
+  }
+  .section__advantages-item3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
+  }
+}
+@media (max-width: 576px) {
+  .section__advantages-container {
+    padding: 4rem 1.5rem;
+  }
+  .section__advantages-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 3rem;
+    row-gap: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .advantages__item-icon {
+    min-width: 6.2rem;
+    height: 6.2rem;
+  }
+  .advantages__item-icon img {
+    width: 100%;
+  }
+  .advantages__item-text {
+    font-family: "GothamProBold";
+    font-size: 1.4rem;
+    line-height: 117%;
+  }
+  .section__advantages-item {
+    max-width: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+  .section__advantages-item2 {
+    max-width: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+  .section__advantages-item3 {
+    max-width: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
 }
