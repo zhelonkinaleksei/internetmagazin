@@ -90,6 +90,20 @@ body{
     &:hover{
         transform: translateY(-0.4rem);
     }
+    position: relative;
+}
+.count__productlike{
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    top:-0.5rem;
+    right:-1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #ff1900;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    color: #ffffff;
 }
 .header__busket {
     background-image: url(../images/header/busket.svg);
@@ -100,6 +114,21 @@ body{
     &:hover{
         transform: translateY(-0.4rem);
     }
+    position: relative;
+
+}
+.count__product{
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    top:-0.5rem;
+    right:-1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #ff1900;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    color: #ffffff;
 }
 .header__lk {
     background-image: url(../images/header/lk.svg);

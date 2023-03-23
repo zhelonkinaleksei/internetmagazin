@@ -189,10 +189,25 @@ body {
   height: 1.823rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  position: relative;
 }
 .header__like:hover {
   -webkit-transform: translateY(-0.4rem);
           transform: translateY(-0.4rem);
+}
+
+.count__productlike {
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  top: -0.5rem;
+  right: -1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ff1900;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: #ffffff;
 }
 
 .header__busket {
@@ -202,10 +217,27 @@ body {
   height: 2.1rem;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  position: relative;
 }
 .header__busket:hover {
   -webkit-transform: translateY(-0.4rem);
           transform: translateY(-0.4rem);
+}
+
+.count__product {
+  font-weight: 700;
+
+  position: absolute;
+  text-align: center;
+  top: -0.5rem;
+  right: -1rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ff1900;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: #ffffff;
+  
 }
 
 .header__lk {
